@@ -9,7 +9,7 @@ print "If you do want that, hit ENTER."
 raw_input ("?")
 
 print "Opening the file..."
-target = open(filename, 'w')
+target = open(filename, 'w') #'w' mode creates the file if it doesn't already exist
 
 print "Truncating the file. Goodbye!"
 target.truncate()
