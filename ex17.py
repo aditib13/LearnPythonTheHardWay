@@ -3,21 +3,14 @@ from os.path import exists
 
 script, from_file, to_file = argv
 
-print "Copying from %s to %s" % (from_file, to_file)
+open(to_file, 'w').write(open(from_file).read())
 
-input = open(from_file)
-indata = input.read()
+# indata is just input with .read() at the end
+# input = open(from_file)
+# indata = input.read()
 
-print "The input file is %d bytes long" % len(indata)
+# line 14 is just output with .write(indata) at the end
+# output = open(to_file, 'w')
+# output.write(indata)
 
-print "Does the output file already exist? %r" % exists(to_file)
-print "Ready, hit ENTER to continue, CTRL-C to abort."
-raw_input()
-
-output = open(to_file, 'w')
-output.write(indata)
-
-print "Alright, all done."
-
-output.close()
-input.close()
+#combine the two by making both parts into 2 lines, then putting new indata inside output
