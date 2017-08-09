@@ -2,7 +2,7 @@ from sys import argv
 
 script, filename = argv
 
-#opens file that you entered as an argument
+#opens file that you entered as an argument. you must open before doing anything
 txt = open(filename)
 
 print "Here's your file %r:" % filename
