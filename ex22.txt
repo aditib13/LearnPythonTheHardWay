@@ -1,0 +1,27 @@
+# : 'octothorpe'/ 'hash' / 'pound'. Creates comments.
+print "" : prints things for user to see
+%s, %d, %r : 'formats'. Used to hold the place of a variable in the middle of a string. s is for strings, d is for integers, r returns it as it is.
+"" : 'string.' words you want printed should be typed inside quotation marks.
+\t : 'tab'. Indents text written after
+\n : 'newline'. Begins following text on a new line.
+\\ : 'escaped slash'. Prints one slash. 
+\ : 'escape'
+""" : 'triple quote'. Prints text inside on multiple lines.
+True : True boolean
+False : False boolean
+raw_input : allows user to input answer
+from : used to import something from
+sys : sys module
+import : imports from elsewhere
+argv : defines array of arguments entered on command line
+open : opens given file
+'w' : creates file if given file does not exist
+read() : reads content of file as a string
+readline() : reads one line from file
+readlines() : reads all lines from file
+write() : writes string in file
+close() : closes file after done
+truncate() : deletes all content of file
+seek() : moves to given location in file, locations denoted by line number
+def() : defines a function
+return : returns value of function
