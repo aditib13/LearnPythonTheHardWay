@@ -1,0 +1,47 @@
+KEYWORDS
+del: deletes (del random_variable)
+as: used to rename an import (import sys as sys2)
+global: makes variable global (global random_variable)
+assert: creates assertion (assert 1 == 1)
+pass: null placeholder in a function
+yield: exits function and yields value (yield x)
+break: breaks loop (while x == 1: break)
+except: exceptions
+class: 
+exec: executes python code (exec("print banana"))
+raise: raises exception
+continue: continues loop (if x != 0: continue)
+finally: 
+lambda: 
+try:
+
+STRING ESCAPE SEQUENCES
+\a: Bell (BEL)
+\b: Backspace (BS)
+\f: Formfeed (FF)
+\r: Return
+\v: Vertical tab
+
+STRING FORMATS
+%i: same as %d
+%o: octal numbers
+%u: unicode
+%x: hex format
+%X: hex format
+%e: exponent
+%E: exponent
+%f: fixed point
+%F: fixed point
+%g: general format (sigfigs)
+%G: general format (sigfigs)
+%c: character. converts to unicode character before printing
+%%: escape percent inside string
+
+OPERATORS
+<>: not equal (obsolete)
+@: function decorator
+*=: multiply and assign
+/=: divide and assign
+//=: truncated divide and assign
+%=: modulus and assign
+**=: eponentiate and assign
