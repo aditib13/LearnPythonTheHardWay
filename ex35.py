@@ -7,7 +7,7 @@ def gold_room():
 	if "0" in next or "1" in next:
 		how_much = int(next)
 	else:
-		dead("Man, learn how to type a number.") #die function is an error message and then function dies
+		dead("Man, learn how to type a number.") # die function is an error message and then function dies
 
 	if how_much < 50:
 		print "Nice, you're not greedy, you win!"
