@@ -15,3 +15,5 @@ def categorize(word):
 
 if word in categories:
 	return categories
+else:
+	return "yikes, try something else."
